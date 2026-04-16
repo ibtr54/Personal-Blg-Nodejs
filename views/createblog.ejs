@@ -1,0 +1,14 @@
+
+<%- include("header"); %>
+<div class="blog">
+    <h1 class="normal-title" style="margin-left: 2%;">Create your blog</h1>
+        <form action="/submit" method="post">
+            <label for="_title" class="normal-text">Title: </label>
+            <input type="text" id="_title" name="_title" placeholder="Title" class="greentextbox"><br><br>
+            <label for="_text" class="normal-text">Text:</label><br>
+            <textarea id="_text" name="_text" rows="15" cols="50" class="greentextbox">Share your ideas here</textarea><br><br>
+            <input type="submit" value="Submit" class="mainbutton">
+        </form>
+        <br>
+</div>
+<%- include("footer"); %>

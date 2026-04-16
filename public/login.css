@@ -1,0 +1,153 @@
+.login-box{
+    background-color: #4C5844;
+    padding: 10%;
+    width: 400px;
+    height: 300px;
+    box-shadow: 1px 1px #9fa699 inset, 1px 1px #282E22;
+}
+
+.login-background{
+    background-color: #282E22;
+}
+
+.gridcontainer{
+   display: grid;
+   grid-template-columns: 107px auto;
+   
+}
+
+#userText{
+    margin-left: 67%;   
+     
+}
+
+#passText{
+    margin-left: 35%;
+}
+
+.gridthree{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.gap-2{
+    height: 12px;
+}
+
+.gap-4{
+    height: 17px;
+}
+
+.gridone{
+    margin-top: 4px;
+}
+.green-line{
+    margin-top: 12px;
+    border-top: 2px solid #2E3627;
+    border-bottom: 1px solid #9fa699;
+    width: 100%;
+}
+
+.greentextboxlogin-with{
+    width: 89%;
+    height: 22px;
+}
+
+.col1{
+    width: 33%;
+}
+
+.col2{
+    margin-top: 7px;
+    height: 29px;
+    text-align: left;
+    inline-size: 100%;
+    
+}
+
+.col3{
+    margin-top: 4px;
+    height: 29px;
+    text-align: left;
+    inline-size: 100%;
+}
+
+.gridfour{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.gap-3{
+    height: 15px;
+}
+
+.checkbox-container{
+    display: block;
+    position: relative;
+    padding-left: 1px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.checkbox-container input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark{
+    position: absolute;
+    margin-top: 3px;
+    top: 0;
+    left: 0;
+    height: 13px;
+    width: 13px;
+    background-color: #3E4637;
+    box-shadow: 1px 1px #282E22 inset, 1px 1px #9fa699;
+}
+
+.checkbox-container:hover input ~ .checkmark{
+    background-color: #ccc;
+}
+
+.checkbox-container input:checked ~ .checkmark{
+    background-color: #3E4637;
+}
+
+.checkmark:after{
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+.checkbox-container .checkmark:after{
+    left: 4px;
+    top: 1px;
+    width: 3px;
+    height: 6px;
+    border: solid #C4B550;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.access-grid-container{
+    display: grid;
+    grid-template-columns: 210px auto;
+}
+
+.access-text{
+    text-align: right;
+    padding-right: 5px;
+}
+

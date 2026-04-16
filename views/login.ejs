@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Login</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../public/style.css'>
+    <link rel="stylesheet" type="text/css" media="screen" href="../public/login.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+</head>
+<body class="login-background">
+    <div class="login-box">
+        <h1 class="normal-title" style="padding-left: 2%; font-size:1.6rem;">Login</h1>
+                  
+        <form action="/login" method="post">
+            <div class="gridcontainer">  
+                <div class="gridone">
+                    <label id="userText" for="_user" class="normal-text">User</label>
+                    <div class="gap-4"></div>                                        
+                    <label id="passText" for="_pass" class="normal-text">Password </label>
+                </div>
+               <div class="gridtwo">
+                    <input type="text" name="_user" class="greentextbox greentextboxlogin-with">
+                    <div class="gap-2"></div>
+                    <input type="password" name="_pass" class="greentextbox greentextboxlogin-with"><br>
+               </div>
+               <div class="gridthree">
+                    <div class="gap-2"></div>
+                    <input type="submit" value="Login" class="mainbutton col1">
+                    <button class="mainbutton col1" onclick="location.href='www.google.com';">Return</button>
+                </div>
+                <div class="gridfour">
+                    <div class="gap-3"></div>
+                    <label class="normal-text checkbox-container"><input type="checkbox" name="remember"><span class="checkmark"></span><a style="margin-left: 20px;">Remember my password</a></label>
+                </div>
+            </div>
+        </form>
+       
+        <hr class="green-line">
+        <div class="access-grid-container">
+            
+            <p class="normal-text access-text">Don't have an account?</p>
+            <button class="mainbutton col2">Create a new account..</button>
+            <p class="normal-text access-text" style="margin-top: 11px;">Need help with sign in?</p>
+            <button class="mainbutton col3">I can't sign in...</button>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,102 @@
+@font-face{
+    font-family: RobotoCondensed;
+    src: url(RobotoCondensed-VariableFont_wght.ttf);
+}
+
+body{
+    background-color: #4C5844;
+    margin: 0px;
+}
+
+.barnav{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+}
+
+.buttonnav{
+    font-family: RobotoCondensed;
+    color: white;
+    font-weight: bold;    
+    font-size: large;
+    text-decoration: solid;
+    align-self: flex-end;
+    margin: 0% 4% 1% 0%;
+    
+}
+
+#titlePage{
+    font-family: RobotoCondensed;
+    color: white;
+    padding-left: 3%;
+    font-size: 3.1rem;
+    margin-top: 0.2%;
+    
+}
+
+.firstbutton{
+    margin-left: 70%;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    column-gap: 2%;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.normal-text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.865rem;
+    color: /*#B9C1B2*/#B2BAAB;
+    margin-left: 2%;
+}
+.normal-title{
+    font-family: RobotoCondensed;
+
+    color: aliceblue;
+}
+
+.listblogs{
+    margin-left: 1%;
+    flex: 1;
+}
+
+.blog{
+    background-color: #3E4637;
+    flex: 6;
+    
+}
+
+.adminmessage{
+    flex: 0.5;
+    margin-right: 0.5%;
+}
+
+.footer-text{
+    margin-top: 4px;
+    margin-bottom: 7px;
+}
+
+.mainbutton{
+    margin-left: 2%;
+    color: aliceblue;
+    background-color: #4C5844;
+    padding: 7px 27px 6px 7px;
+    font-size: 0.91rem;
+    border: none;
+    box-shadow: 1px 1px #9fa699 inset, 1px 1px #282E22;
+        
+}
+
+.greentextbox{
+    color: aliceblue;
+    background-color: #3E4637;
+    margin-left: 2%;
+    border: none;
+    box-shadow: 1px 1px #282E22 inset, 1px 1px #9fa699;
+}
